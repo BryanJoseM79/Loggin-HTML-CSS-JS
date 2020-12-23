@@ -26,7 +26,8 @@ function anchoPagina(){
         contenedor_login_register.style.left = "0px";
     }
 }
-
+// corregir el problema de mostrar ambos textos en pantalla al recargar la pagina (registrarse/iniciar sesion)
+anchoPagina()
 
 function iniciarSesion(){
     if(window.innerWidth > 850){
